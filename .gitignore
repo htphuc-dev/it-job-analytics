@@ -1,0 +1,29 @@
+# Môi trường ảo (Virtual Environment)
+.venv/
+venv/
+ENV/
+
+# Bộ nhớ đệm Python (Python cache)
+**/__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+
+# Các tệp cấu hình IDE
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.swp
+
+# Cơ sở dữ liệu và biến môi trường local
+*.db
+*.sqlite3
+.env
+
+# Hệ điều hành tự sinh rác
+DS_Store
+Thumbs.db

@@ -1,0 +1,155 @@
+/* app/static/css/style.css */
+    
+body { 
+            background-color: #f4f6f9; 
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            overflow-x: hidden;
+        }
+        
+        /* ===== STYLE CHO SIDEBAR ===== */
+.sidebar {
+            width: 260px;
+            height: 100vh;
+            background-color: #1e293b; /* Xanh đen sang trọng */
+            color: #fff;
+            position: fixed;
+            display: flex;
+            flex-direction: column;
+            transition: all 0.3s ease;
+        }
+ .sidebar-header {
+            padding: 20px;
+            font-size: 1.25rem;
+            font-weight: bold;
+            border-bottom: 1px solid #334155;
+            color: #38bdf8;
+            text-align: center;
+            letter-spacing: 1px;
+        }
+.nav-pills .nav-link {
+            color: #cbd5e1;
+            padding: 15px 20px;
+            margin: 4px 10px;
+            border-radius: 8px;
+            font-size: 1.05rem;
+            transition: all 0.2s;
+        }
+ .nav-pills .nav-link i {
+            width: 25px; /* Giúp các icon căn lề đều nhau */
+        }
+ .nav-pills .nav-link:hover {
+            background-color: #334155;
+            color: #fff;
+        }
+ .nav-pills .nav-link.active {
+            background-color: #0ea5e9; /* Xanh sáng khi được chọn */
+            color: #fff;
+            box-shadow: 0 4px 6px -1px rgba(14, 165, 233, 0.4);
+        }
+
+        /* ===== STYLE CHO KHU VỰC NỘI DUNG CHÍNH ===== */
+ .main-content {
+            margin-left: 260px; /* Chừa chỗ cho sidebar */
+            padding: 30px;
+            width: calc(100% - 260px);
+            min-height: 100vh;
+        }
+        
+.card { 
+            border: none; 
+            border-radius: 12px; 
+            box-shadow: 0 1px 3px rgba(0,0,0,0.1); 
+            margin-bottom: 24px; 
+        }
+.card-header { 
+            background-color: #fff; 
+            border-bottom: 1px solid #f1f5f9; 
+            font-weight: 600; 
+            color: #334155;
+            padding: 15px 20px;
+            border-radius: 12px 12px 0 0 !important;
+        }
+.chart-container { position: relative; height: 350px; width: 100%; }
+
+
+body { 
+    background-color: #f4f6f9; 
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    overflow-x: hidden;
+}
+
+/* ===== STYLE CHO SIDEBAR ===== */
+.sidebar {
+    width: 260px;
+    height: 100vh;
+    background-color: #1e293b;
+    color: #fff;
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    transition: all 0.3s ease;
+}
+.sidebar-header {
+    padding: 20px;
+    font-size: 1.25rem;
+    font-weight: bold;
+    border-bottom: 1px solid #334155;
+    color: #38bdf8;
+    text-align: center;
+    letter-spacing: 1px;
+}
+.nav-pills .nav-link {
+    color: #cbd5e1;
+    padding: 15px 20px;
+    margin: 4px 10px;
+    border-radius: 8px;
+    font-size: 1.05rem;
+    transition: all 0.2s;
+}
+.nav-pills .nav-link i { width: 25px; }
+.nav-pills .nav-link:hover {
+    background-color: #334155;
+    color: #fff;
+}
+.nav-pills .nav-link.active {
+    background-color: #0ea5e9;
+    color: #fff;
+    box-shadow: 0 4px 6px -1px rgba(14, 165, 233, 0.4);
+}
+
+/* ===== STYLE CHO KHU VỰC NỘI DUNG CHÍNH ===== */
+.main-content {
+    margin-left: 260px;
+    padding: 30px;
+    width: calc(100% - 260px);
+    min-height: 100vh;
+}
+
+.card { 
+    border: none; 
+    border-radius: 12px; 
+    box-shadow: 0 1px 3px rgba(0,0,0,0.1); 
+    margin-bottom: 24px; 
+}
+.card-header { 
+    background-color: #fff; 
+    border-bottom: 1px solid #f1f5f9; 
+    font-weight: 600; 
+    color: #334155;
+    padding: 15px 20px;
+    border-radius: 12px 12px 0 0 !important;
+}
+.chart-container { position: relative; height: 350px; width: 100%; }
+
+/* ===== STYLE MỚI CHO BẢNG JOB EXPLORER ===== */
+.table-responsive { max-height: 600px; overflow-y: auto; }
+.sticky-top-header th { position: sticky; top: 0; background-color: #1e293b; color: white; z-index: 10; }
+.job-row:hover { background-color: #f1f5f9; cursor: pointer; }
+/* Bootstrap Tab Fix */
+.tab-content > .tab-pane {
+    display: none;
+}
+
+.tab-content > .active {
+    display: block;
+}
