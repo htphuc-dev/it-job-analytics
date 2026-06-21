@@ -15,7 +15,8 @@
 ## 🛠️ Hướng Dẫn Cài Đặt và Triển Khai 
 
 ### 1. Tải mã nguồn về máy local
-
+Dowload file zip từ : https://github.com/htphuc-dev/it-job-analytics
+nếu máy tính cài sẵn Git:
 ```bash
 git clone https://github.com/htphuc-dev/it-job-analytics
 cd job_aggregator
@@ -26,7 +27,7 @@ cd job_aggregator
 ```bash
 # Khởi tạo môi trường ảo độc lập
 python -m venv .venv
-
+nếu lỗi: py -m venv .venv
 # Kích hoạt môi trường ảo (Dành cho Windows)
 .venv\Scripts\activate
 
@@ -56,9 +57,15 @@ PORT=5000
 Mở Terminal tại thư mục gốc, đảm bảo môi trường ảo `(.venv)` đã bật và gõ lệnh:
 
 ```bash
-python main.py
+python run_pipeline.py
 ```
-Hoặc ấn run để chạy file main.py
+hoặc:
+```bash
+py run_pipeline.py
+```
+Hoặc ấn run để chạy file run_pipeline.py
+Để tạo lại database, chạy api thu thập dữ liệu cho các bảng
+
 Sau đó, mở trình duyệt web và truy cập địa chỉ: `http://127.0.0.1:5000` để kiểm tra giao diện và sử dụng hệ thống.
 
 Bài tập được đóng gói cấu hình bảo mật nghiêm ngặt. Toàn bộ môi trường ảo `.venv`, dữ liệu thô `job_database.db` và mã khóa `.env` đều được thiết lập nằm trong danh mục chặn của `.gitignore` để đảm bảo an toàn tuyệt đối khi đưa lên GitHub.
