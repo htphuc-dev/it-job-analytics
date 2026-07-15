@@ -28,9 +28,17 @@ Bài tập lớn môn học: Lập trình Python
 ## 🚀 Các Tính Năng Chính Của Hệ Thống
 
 - **Dashboard Tổng Quan (Trang 1)**: Cập nhật thời gian thực tổng số việc làm, kỹ năng đã quét, lương trung bình toàn thị trường, và tích hợp 3 biểu đồ trực quan (Cơ cấu khu vực, Nguồn dữ liệu gốc, Top kỹ năng hot).
+  <img width="1920" height="1020" alt="Screenshot 2026-06-22 043955" src="https://github.com/user-attachments/assets/03eb8bd6-148c-4390-a71b-52fd4a3d75ea" />
+
 - **Khám Phá Việc Làm (Trang 2)**: Kho dữ liệu việc làm gốc tích hợp bộ lọc tìm kiếm nâng cao (Vị trí, Khu vực, Lương), phân trang mượt mà và cửa sổ hiển thị chi tiết JD (Modal).
+  <img width="1920" height="1020" alt="Screenshot 2026-06-22 044120" src="https://github.com/user-attachments/assets/cb2ba15e-3004-48fb-ae76-35b4643a3774" />
+
 - **Phân Tích Kỹ Năng IT (Trang 3)**: Trực quan hóa mức độ phổ biến bằng biểu đồ cột ngang, Đám mây từ khóa sinh động (Word Cloud), biểu đồ lưới nhện Cán cân công nghệ (Tech Stack) và biểu đồ Đường đua công nghệ theo chuỗi thời gian.
+  <img width="1920" height="1020" alt="Screenshot 2026-06-22 044023" src="https://github.com/user-attachments/assets/f4291b7c-4705-4671-b756-56b9dc798419" />
+
 - **Phân Tích Lương Chuyên Sâu (Trang 4)**: Cung cấp 5 góc nhìn phân tích lương (Top kỹ năng thu nhập cao, Tỷ lệ việc làm, Phân bố mức lương theo cấp bậc Box Plot, Mật độ tập trung Histogram và Độ rộng dải lương Scatter). Hỗ trợ chuyển đổi đơn vị USD / VNĐ thông minh.
+  <img width="1920" height="1020" alt="Screenshot 2026-06-22 044059" src="https://github.com/user-attachments/assets/96ae53b7-2917-4b27-8b25-f7b27038f403" />
+
 - **Bản Đồ Tuyển Dụng (Trang 5)**: Biểu đồ bánh phân tích quy mô việc làm theo thành phố. Tích hợp tính năng tương tác click chuột vào vùng miền để lọc Bảng phong thần các công ty tuyển dụng hàng đầu.
 - **Xu Hướng Thị Trường (Trang 6)**: Theo dõi lưu lượng tin đăng tuyển mới (Line Chart) và biểu đồ cột chồng (Stacked Bar Chart) phân tích diễn biến dịch chuyển cơ cấu Tech Stack theo ngày.
 - **Quản Trị Hệ Thống (Trang 7)**: Bảng điều khiển admin kiểm tra trạng thái kết nối Database (SQLite), Server (Flask) và hướng dẫn thực thi chuỗi công cụ Automation Pipeline (ETL).
